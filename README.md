@@ -22,4 +22,40 @@ Additionally, the project includes:
 
 3. A reporting tool to display statistics like total tax collected, average tax paid, and summaries based on income brackets.
 
-# Steps : 
+# Additional info : 
+Overview:
+The project is designed to manage and automate tax-related activities. It uses PL/SQL procedures and tables to store and process data related to taxpayers, tax rates, returns, deductions, penalties, and consultants.
+
+Key Components:
+1. Database Structure:
+   
+Tables: Stores information about taxpayers, tax rates, returns, payments, audits, deductions, penalties, consultants, and assignments.
+
+Sample Data: Pre-filled entries for testing and demonstration.
+
+2. Core Functionalities:
+   
+Tax Calculation: Automatically calculates tax based on income brackets and applicable deductions.
+
+Filing Tax Returns: Files returns and updates the database with taxable income, tax amount, and status.
+
+Auditing: Records audit findings and status.
+
+3. Reports and Statistics:
+
+Summarizes total tax paid, average tax, and income distribution.
+
+Lists top taxpayers and tax breakdown by income brackets.
+
+Outputs:
+
+Tax Filing: Confirms successful filing with details about taxable income and tax calculated.
+
+Statistics: Provides insights into tax collections, number of taxpayers, and compliance levels.
+
+Error Handling: Handles issues during operations, ensuring the system remains robust.
+
+
+This project simplifies tax management by automating calculations, ensuring data consistency, and providing actionable insights.
+
+
